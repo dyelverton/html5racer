@@ -22,6 +22,7 @@ function HitMap(img){
 HitMap.prototype = {
 	draw: function(){
 		// first create the canvas
+		// Ensureign that there is a place to draw the image - DEY
 		this.canvas = document.createElement('canvas');
 		this.canvas.width = this.img.width;
 		this.canvas.height = this.img.height;
